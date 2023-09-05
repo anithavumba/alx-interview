@@ -14,6 +14,7 @@ def is_prime(n):
         i += 6
     return True
 
+
 def isWinner(x, nums):
     if not nums:
         return None
@@ -36,4 +37,5 @@ def isWinner(x, nums):
         return None
 
 # Example usage
+
 print("Winner: {}".format(isWinner(3, [4, 5, 1])))
